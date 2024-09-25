@@ -1,0 +1,11 @@
+.estilo{
+    display:flex;
+    border: 5px solid rgb(130, 206, 219);
+    border-radius: 20px;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+.LINK{
+    color:black;
+
+}
