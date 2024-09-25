@@ -1,9 +1,4 @@
-import React from 'react'
-import "./cards.css"
-
-const cards = () => {
-  
-  const data =[
+[
     {
       "lang": "Python",
       "url": "https://cdn.svgporn.com/logos/python.svg",
@@ -30,22 +25,3 @@ const cards = () => {
     }
   ]
   
-
-  
-
-  return (
-    <>
-    {
-      data.map(
-        ({lang,url,fcolor,scolor})=>{
-          return <Card  key={lang} lang={lang} img={url} fcolor={fcolor} scolor={scolor}/>
-        }
-      )
-    }
-    
-    </>
-    
-  )
-}
-
-export default cards
